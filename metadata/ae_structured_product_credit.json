@@ -1,0 +1,150 @@
+{
+    "number_of_attributes": 27,
+    "attributes": {
+        "counterparty_name": {
+            "type": "varchar",
+            "len": 45,
+            "null": false
+        },
+        "counterparty_code": {
+            "type": "varchar",
+            "len": 45,
+            "null": false
+        },
+        "token": {
+            "type": "varchar",
+            "len": 10,
+            "null": false
+        },
+        "token_quantity": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "notional_value": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "fixed_interest_rate": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "interest_token": {
+            "type": "varchar",
+            "len": 10,
+            "null": false
+        },
+        "start_date": {
+            "type": "datetime",
+            "null": false
+        },
+        "end_date": {
+            "type": "datetime",
+            "null": false
+        },
+        "duration_of_loan": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "funding_rate_source": {
+            "type": "varchar",
+            "len": 45,
+            "null": false
+        },
+        "eod_price_of_token": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "notional_based_on_eop": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "funding_rate": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "entity": {
+            "type": "varchar",
+            "len": 45,
+            "null": false
+        },
+        "funding_fee_amount_per_day": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "funding_fee_cumulative": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "funding_fee_outstanding": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "collateral": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "attachment": {
+            "type": "varchar",
+            "len": 45,
+            "null": false
+        },
+        "transaction_hash_loan": {
+            "type": "varchar",
+            "len": 45,
+            "null": false
+        },
+        "transaction_hash_interest_payments": {
+            "type": "varchar",
+            "len": 45,
+            "null": false
+        },
+        "entry_details": {
+            "type": "varchar",
+            "len": 10,
+            "null": false
+        },
+        "transaction_entry_input_time": {
+            "type": "datetime",
+            "null": false
+        },
+        "source": {
+            "type": "enum",
+            "values": [
+                "manual",
+                "system"
+            ],
+            "null": true
+        },
+        "modification_time": {
+            "type": "datetime",
+            "null": false
+        },
+        "record_modified_by": {
+            "type": "varchar",
+            "len": 10,
+            "null": false
+        }
+    }
+}

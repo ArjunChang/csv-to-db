@@ -1,0 +1,77 @@
+{
+    "number_of_attributes": 14,
+    "attributes": {
+        "particulars": {
+            "type": "varchar",
+            "len": 45,
+            "null": false
+        },
+        "mm_contract": {
+            "type": "varchar",
+            "len": 45,
+            "null": false
+        },
+        "counterparty_name": {
+            "type": "varchar",
+            "len": 45,
+            "null": false
+        },
+        "counterparty_code": {
+            "type": "varchar",
+            "len": 45,
+            "null": false
+        },
+        "mm_token_name": {
+            "type": "varchar",
+            "len": 10,
+            "null": false
+        },
+        "nature_of_mm_contract": {
+            "type": "varchar",
+            "len": 45,
+            "null": false
+        },
+        "period_of_contract": {
+            "type": "int",
+            "null": true
+        },
+        "contract_start_date": {
+            "type": "datetime",
+            "null": false
+        },
+        "contract_end_date": {
+            "type": "datetime",
+            "null": false
+        },
+        "token_quantity": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "strike_price_of_contract": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "quantity_sold": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "price_of_quantity_sold": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "gain_loss_on_sale_of_tokens": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        }
+    }
+}

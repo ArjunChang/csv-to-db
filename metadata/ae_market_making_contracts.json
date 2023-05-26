@@ -1,0 +1,133 @@
+{
+    "number_of_attributes": 24,
+    "attributes": {
+        "particulars": {
+            "type": "varchar",
+            "len": 45,
+            "null": false
+        },
+        "mm_contract": {
+            "type": "varchar",
+            "len": 45,
+            "null": false
+        },
+        "counterparty_name": {
+            "type": "varchar",
+            "len": 45,
+            "null": false
+        },
+        "counterparty_code": {
+            "type": "varchar",
+            "len": 45,
+            "null": false
+        },
+        "mm_token_name": {
+            "type": "varchar",
+            "len": 10,
+            "null": false
+        },
+        "nature_of_mm_contract": {
+            "type": "varchar",
+            "len": 45,
+            "null": false
+        },
+        "period_of_contract": {
+            "type": "int",
+            "null": true
+        },
+        "contract_start_date": {
+            "type": "datetime",
+            "null": false
+        },
+        "contract_end_date": {
+            "type": "datetime",
+            "null": false
+        },
+        "token_quantity": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "strike_price_of_contract": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "quantity_sold_cumulative": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "price_of_quantity_sold_average": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "gain_loss_on_sale_of_tokens": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "remaining_mm_tokens": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "24_hrs_liquidity_of_mm_token": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "has_contract_terms_revised": {
+            "type": "enum",
+            "values": [
+                "yes",
+                "no"
+            ],
+            "null": false
+        },
+        "gain_loss_on_revision_of_contract": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "eop_price": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "notional_gain_loss_based_on_eop_price": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "token_received_date": {
+            "type": "datetime",
+            "null": false
+        },
+        "transaction_hash_token_received": {
+            "type": "varchar",
+            "len": 45,
+            "null": false
+        },
+        "token_return_date": {
+            "type": "datetime",
+            "null": false
+        },
+        "transaction_hash_token_sent": {
+            "type": "varchar",
+            "len": 45,
+            "null": false
+        }
+    }
+}

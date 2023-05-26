@@ -1,0 +1,83 @@
+{
+    "number_of_attributes": 14,
+    "attributes": {
+        "loan_id": {
+            "type": "int",
+            "null": false
+        },
+        "counterparty_name": {
+            "type": "varchar",
+            "len": 45,
+            "collation": "ascii_bin",
+            "null": false
+        },
+        "counterparty_code": {
+            "type": "varchar",
+            "len": 45,
+            "collation": "ascii_bin",
+            "null": false
+        },
+        "token": {
+            "type": "varchar",
+            "len": 10,
+            "collation": "ascii_bin",
+            "null": false
+        },
+        "start_date": {
+            "type": "datetime",
+            "null": false
+        },
+        "end_time": {
+            "type": "datetime",
+            "null": false
+        },
+        "duration_of_loan": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": true
+        },
+        "entity": {
+            "type": "varchar",
+            "len": 45,
+            "collation": "ascii_bin",
+            "null": false
+        },
+        "rewards_dist_ratio": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": true
+        },
+        "gross_rewards": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": true
+        },
+        "net_rewards": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": true
+        },
+        "attachment": {
+            "type": "varchar",
+            "len": 45,
+            "collation": "ascii_bin",
+            "null": true
+        },
+        "transaction_hash": {
+            "type": "varchar",
+            "len": 45,
+            "collation": "ascii_bin",
+            "null": true
+        },
+        "input_by": {
+            "type": "varchar",
+            "len": 45,
+            "collation": "ascii_bin",
+            "null": true
+        }
+    }
+}

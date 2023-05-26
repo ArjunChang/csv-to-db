@@ -1,0 +1,115 @@
+{
+    "number_of_attributes": 19,
+    "attributes": {
+        "id": {
+            "type": "int",
+            "null": false
+        },
+        "asset_staked": {
+            "type": "varchar",
+            "len": 10,
+            "collation": "ascii_bin",
+            "null": false
+        },
+        "validator_name": {
+            "type": "varchar",
+            "len": 45,
+            "collation": "ascii_bin",
+            "null": false
+        },
+        "validator_code": {
+            "type": "varchar",
+            "len": 45,
+            "collation": "ascii_bin",
+            "null": false
+        },
+        "blockchain_id": {
+            "type": "varchar",
+            "len": 45,
+            "collation": "ascii_bin",
+            "null": false
+        },
+        "token": {
+            "type": "varchar",
+            "len": 10,
+            "collation": "ascii_bin",
+            "null": false
+        },
+        "token_status": {
+            "type": "enum",
+            "values": [
+                "pending",
+                "unstaked",
+                "staked"
+            ],
+            "collation": "ascii_bin",
+            "null": false
+        },
+        "start_date": {
+            "type": "datetime",
+            "null": false
+        },
+        "end_date": {
+            "type": "datetime",
+            "null": false
+        },
+        "duration_staked_loan": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "trading_entity": {
+            "type": "varchar",
+            "len": 45,
+            "collation": "ascii_bin",
+            "null": false
+        },
+        "rewards_earned_till_date": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": true
+        },
+        "rebate_earned_till_date": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": true
+        },
+        "apy": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": true
+        },
+        "loan_id": {
+            "type": "int",
+            "null": true
+        },
+        "rewards": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": true
+        },
+        "rewards_validator": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": true
+        },
+        "net_rewards_falconx": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": true
+        },
+        "transaction_hash": {
+            "type": "varchar",
+            "len": 45,
+            "collation": "ascii_bin",
+            "null": true
+        }
+    }
+}

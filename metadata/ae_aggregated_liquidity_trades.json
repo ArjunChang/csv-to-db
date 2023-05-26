@@ -1,0 +1,321 @@
+{
+    "attributes": {
+        "customer_id": {
+            "type": "int",
+            "null": true
+        },
+        "coverage": {
+            "type": "varchar",
+            "len": 45,
+            "null": false
+        },
+        "internal": {
+            "type": "int",
+            "null": true
+        },
+        "customer_revenue": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "customer_cost": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "customer_cost_wo_discount": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "customer_PNL": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "total_revenue": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "total_cost": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "total_cost_wo_discount": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "total_PNL": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "exchange": {
+            "type": "varchar",
+            "len": 45,
+            "null": false
+        },
+        "customer_proxy_id": {
+            "type": "int",
+            "null": true
+        },
+        "company_name": {
+            "type": "varchar",
+            "len": 45,
+            "null": false
+        },
+        "persona_type": {
+            "type": "varchar",
+            "len": 45,
+            "null": false
+        },
+        "trade_date": {
+            "type": "datetime",
+            "null": false
+        },
+        "side": {
+            "type": "enum",
+            "values": [
+                "buy",
+                "sell"
+            ],
+            "null": false
+        },
+        "token_type": {
+            "type": "varchar",
+            "len": 20,
+            "null": false
+        },
+        "base_token": {
+            "type": "varchar",
+            "len": 20,
+            "null": false
+        },
+        "quote_token": {
+            "type": "varchar",
+            "len": 20,
+            "null": false
+        },
+        "fees_token": {
+            "type": "varchar",
+            "len": 20,
+            "null": false
+        },
+        "is_maker": {
+            "type": "tinyint",
+            "null": true
+        },
+        "rebate_token": {
+            "type": "varchar",
+            "len": 20,
+            "null": false
+        },
+        "subaccount_id": {
+            "type": "int",
+            "null": true
+        },
+        "product_type_int": {
+            "type": "int",
+            "null": true
+        },
+        "product_type": {
+            "type": "varchar",
+            "len": 20,
+            "null": false
+        },
+        "margin_mode": {
+            "type": "varchar",
+            "len": 20,
+            "null": false
+        },
+        "platform": {
+            "type": "varchar",
+            "len": 20,
+            "null": false
+        },
+        "product": {
+            "type": "varchar",
+            "len": 20,
+            "null": false
+        },
+        "total_trades": {
+            "type": "int",
+            "null": true
+        },
+        "total_orders": {
+            "type": "int",
+            "null": true
+        },
+        "quantity": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "volume": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "trade_size_usd": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "fees_owed_usd": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "affiliate_rebate_usd": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "fees_rebate_usd": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "fee_total_usd": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "net_customer_fees_usd": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "net_savings_usd": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "customer_fees_without_discount": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "default_fees_in_usd": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "pdate": {
+            "type": "datetime",
+            "null": false
+        },
+        "v_plus": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "v_minus": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "e_plus": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "e_minus": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "v_minus_n": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "internal_agg_edge_metrics": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "customer_revenue_agg_edge_metrics": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "customer_cost_agg_edge_metrics": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "customer_cost_wo_discount_agg_edge_metrics": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "customer_pnl_agg_edge_metrics": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "total_revenue_agg_edge_metrics": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "total_cost_gg_edge_metrics": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "total_cost_wo_discount_agg_edge_metrics": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "total_pnl_agg_edge_metrics": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        },
+        "token_type_agg_edge_metrics": {
+            "type": "decimal",
+            "precision": 32,
+            "scale": 16,
+            "null": false
+        }
+    }
+}
